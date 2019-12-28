@@ -35,17 +35,60 @@ nav a {
 
 .npmLogo {
   width: 30px;
-  margin-right: 1rem;
+  margin-right: 0.5em;
 }
 
 .searchBar img {
-  width: 10px;
-  margin-right: 1rem;
+  width: 20px;
+  vertical-align: middle;
+  background-color: lightgray;
 }
 
 .searchBar {
-  width: 40%;
-  margin: 18px auto 0 auto;
+  width: 100%;
+  margin: 0px;
   font-size: 1.5em;
+}
+
+.searchBar input {
+  border: none;
+  background-color: lightgray;
+  height: 20px;
+  width: 600px;
+}
+
+.searchBar button {
+  background-color: red;
+  border: none;
+}
+
+.link-btn {
+text-decoration: none;
+border: black;
+padding: 10px;
+}
+
+h1 {
+  font-size: 50px;
   text-align: center;
+  font-weight: 1000;
+}
+
+#section1 {
+  margin: 50px 50px;
+  background-color: rgb(255, 220, 226);
+}
+
+#section1 article {
+text-align: center;
+margin: auto 35%;
+}
+
+.hexagon {
+  width: 100px;
+  align-items: center;
+}
+
+.icons {
+  width: 30px;
 }
