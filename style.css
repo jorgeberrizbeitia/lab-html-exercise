@@ -34,7 +34,8 @@ nav a {
 }
 
 .npmLogo {
-  width: 30px;
+  width: 40px;
+  height: 15px;
   margin-right: 0.5em;
 }
 
@@ -44,10 +45,17 @@ nav a {
   background-color: lightgray;
 }
 
+.searchLinks {
+  vertical-align: middle;
+}
+
 .searchBar {
   width: 100%;
   margin: 0px;
   font-size: 1.5em;
+  background-color: lightgray;
+  border-radius: 5px;
+  padding: 0 10px;
 }
 
 .searchBar input {
@@ -74,12 +82,18 @@ h1 {
   font-weight: 1000;
 }
 
+#section1 div {
+  text-align: center;
+  margin: 30px 100px;
+}
+
 #section1 {
   margin: 50px 50px;
+  padding: 50px 50px;
   background-color: rgb(255, 220, 226);
 }
 
-#section1 article {
+article {
 text-align: center;
 margin: auto 35%;
 }
@@ -89,6 +103,29 @@ margin: auto 35%;
   align-items: center;
 }
 
+h2 {
+  text-align: center;
+  background-color: coral;
+  margin: 10px 200px;
+}
+
+#section2 div {
+  text-align: center;
+}
+
 .icons {
   width: 30px;
+}
+
+#section3 > div {
+  display:flex;
+  margin: 20px 200px;
+}
+
+h3 {
+  color: red;
+}
+
+.orgs {
+  margin: 10px
 }
